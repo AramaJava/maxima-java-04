@@ -11,10 +11,14 @@ public class App
         Описать класс Train, потомок класса Transport из модуля 2.
 
         Описать свойства String id, int carriageCount, boolean isExpress.
+        Подключить к проекту внешнюю зависимость — Lombok из внешнего репозитория
+
+        Использовать аннотации Lombok для добавления всех геттеров, сеттеров,
+        метода toString() и конструктора со всеми аргументами
 */
 
-
-        System.out.println( "Hello World!" );
+        Train poezd = new Train("Дизель", 2,true);
+        System.out.println(poezd);
 
 
 
